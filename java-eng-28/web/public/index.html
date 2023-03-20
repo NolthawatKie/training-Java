@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel = "shortcut icon" href = "/favicon.png">
+        <link rel = "stylesheet" href = "/normalize.css">
+    </head>
+    <body>
+        <nav>
+            <div class="container">
+                <h1 class="logo">iCoffee</h1>
+                <a class="top-menu" href="">Become Rider</a>
+                <a class="top-menu" href="">Become Seller</a>
+            </div>
+            <style>
+                .logo{
+                    display: inline-block;
+                    margin-top: 0.25rem;
+                }
+                nav {
+                    background: rgb(255,255,255);
+                    //height:32px;
+                    height:3rem;
+                }
+                .top-menu {display:none;}
+                @media (min-width: 768px) {
+                    .top-menu { display: inline-block;}
+                }
+            </style>
+        </nav>
+        
+        <header>
+            <style>
+                header {
+                    //background: rgb(200,200,200);
+                    background: var(--header-background);
+                    //height: 400px;
+                    height:25rem;
+                }
+            </style>
+        </header>
+        
+        <main>
+            <div class="container">
+
+                <button>shop</button>
+                <p>Welcome to iCoffee</p>
+            </div>
+            
+            <div class="container">
+                <div class = "building-and-detail">
+                    <p>
+                        Lorem ipsum dolor sit amet, 
+                        consectetur adipiscing elit. 
+                        Cras congue dui in ante viverra, 
+                        vitae aliquam diam tristique. Mauris est lectus, 
+                        facilisis eu congue vitae, tempus sed nulla. 
+                        Phasellus non diam aliquet, suscipit nisi vitae, 
+                        pulvinar odio. Cras sed metus a nibh blandit auctor. 
+                        Praesent vel felis egestas, molestie quam eu, congue dolor. 
+                        Suspendisse efficitur non sapien a rutrum. 
+                        In tempor augue non ipsum blandit ultricies. Sed sodales, 
+                        dui ut congue scelerisque, odio mi tincidunt dui, 
+                        vitae ornare purus urna ac arcu. 
+                        Maecenas vestibulum nisi vitae massa fermentum, 
+                        ut iaculis purus euismod. Fusce sit amet imperdiet turpis. 
+                        Integer leo magna, laoreet nec molestie non, laoreet vel ex. 
+                        Nam mattis dapibus lacus blandit euismod. Morbi ex metus, 
+                        sagittis pellentesque velit sed, 
+                        auctor lacinia leo. 
+                        Vivamus condimentum diam id consectetur faucibus. 
+                        Mauris eleifend lobortis elit, a egestas ligula aliquet vitae. 
+                        Praesent eget lectus sit amet est aliquam hendrerit.
+                    </p>
+                    <img src="/picture.jpg"></img>
+                </div>
+            </div>
+            
+            
+            <style>
+                a {
+                    color: var(--header-background);
+                    text-decoration: none;
+                }
+                a:hover {
+                    color: var(--footer-background);
+                }
+                .container {
+                    max-width: 1024px;
+                    margin-top: 1rem;
+                    padding-left: 2rem;
+                    padding-right:2rem;
+                    display: block;
+                    margin: 0 auto;
+                }
+                
+                main {
+                    //min-height: 800px;   
+                    min-height: 50rem;
+                }
+
+                img {
+                    width:100%
+                }
+                
+                button {
+                    margin-top: 1rem;
+                }
+
+                .building-and-detail {
+                    display:grid;
+                    grid-template-columns: 1fr;
+                }
+
+                @media (min-width: 1024px) {
+                    .building-and-detail {
+                        grid-template-columns: 55% calc(45% - 2rem);
+                        column-gap: 2rem;
+                    }
+                }
+                
+            </style>
+        </main>
+        
+        <footer>
+            <style>
+                footer{
+                    background : var(--footer-background);
+                    //height: 320px;  
+                    height:20rem;
+                }
+            </style>
+        </footer>
+        
+        <style>
+            :root{
+                --header-background : dodgerblue;
+                --footer-background : rgb(64,64,64);
+            }
+        </style>
+        
+
+    </body>
+</html>

@@ -1,0 +1,30 @@
+<project>
+    <modelVersion>4.0.0</modelVersion>  
+    <groupId>my-company</groupId>
+    <artifactId>java-eng-25</artifactId>
+    <version>0.85</version>
+    
+    <dependencies>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-web</artifactId>
+            <version>3.0.3</version>     
+        </dependency>
+    </dependencies>
+    
+    <properties>
+        <maven.compiler.source>19</maven.compiler.source>
+        <maven.compiler.target>19</maven.compiler.target>
+    </properties>
+    
+    <build>
+        <sourceDirectory>code</sourceDirectory>
+        <testSourceDirectory>test</testSourceDirectory>
+        <resources>
+            <resource>
+                <directory>web</directory>
+            </resource>
+        </resources>
+    </build>
+    <name>java-eng-25</name>
+</project>

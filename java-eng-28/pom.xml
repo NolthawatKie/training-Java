@@ -1,0 +1,30 @@
+<project>
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>my-company</groupId>
+    <artifactId>java-eng-28</artifactId>
+    <version>0.85</version>
+    
+    <properties>
+        <maven.compiler.source>19</maven.compiler.source>
+        <maven.compiler.target>19</maven.compiler.target>
+    </properties>
+    
+    <dependencies>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-webflux</artifactId> 
+            <version>RELEASE</version>  
+        </dependency>
+    </dependencies>
+    
+    <build>
+        <sourceDirectory>java</sourceDirectory>
+        <testSourceDirectory>test</testSourceDirectory>
+        <resources>
+            <resource>
+                <directory>web</directory>
+            </resource>
+        </resources>
+    </build>
+
+</project>

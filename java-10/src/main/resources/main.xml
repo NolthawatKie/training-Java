@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+">
+    <bean id ="front" class = "Cashier">
+        <property name="tax" value = "15" />
+        <property name="name" value = "Abigale W" />
+    </bean>
+    
+    <bean id ="back" class = "Cashier">
+        <property name="tax" value = "15" />
+    </bean>
+    
+    <bean id ="captain" class = "Player">
+        <property name="name" value = "Michael Owen" />
+        <property name="number" value = "10" />
+        <property name="salary" value = "45000" />
+    </bean>
+
+</beans>

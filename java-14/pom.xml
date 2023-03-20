@@ -1,0 +1,16 @@
+<project>
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>my-company</groupId>
+    <artifactId>java-14</artifactId>
+    <version>0.85</version>
+    
+    <properties>
+        <maven.complier.source>19</maven.complier.source>
+        <maven.complier.target>19</maven.complier.target>
+    </properties>
+    
+    <build>
+        <sourceDirectory>code</sourceDirectory>
+        <testSourceDirectory>test</testSourceDirectory>
+    </build>
+</project>
